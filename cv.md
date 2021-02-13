@@ -4,7 +4,7 @@
 ## Contacts
 
 1. Skype: 11111111
-2. Viber / Telegramm : +37511111111
+2. Viber / Telegramm : +37511wewewe111111
 3. Phone number: +37511111111 MTS
 4. E-mail: 11111111@gmail.com
 
