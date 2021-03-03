@@ -1,0 +1,122 @@
+     body {
+        font-family: Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+        margin: 0;
+      }
+
+      .main {
+        padding: 10px 0;
+        border-radius: 15px;
+        background-color: #fafbfc;
+        margin: auto;
+        width: 80%;
+        font-size: 16px;
+      }
+
+      .main h1 {
+        text-align: center;
+        font-family: "PT Sans";
+        font-size: 21px;
+        font-weight: 500;
+        color: #1956a6;
+        margin-bottom: 15px;
+        font-style: normal;
+      }
+
+      .block {
+        margin: auto;
+        width: 75%;
+        font-size: 15px;
+      }
+      .block h2{
+        color: #1956a6;
+        font-family: "PT Sans";
+        font-size: 18px;
+        font-weight: 500;
+
+      }
+
+      .footer {
+        font-weight: 900;
+        text-align: center;
+        text-decoration: none;
+        color: #1956a6;
+        border-radius: 15px;
+        margin: auto;
+        width:80%;
+        font-size: 22px;
+        background-color: #fafbfc;
+        text-transform: uppercase;
+      }
+      .footer h2 {
+        text-align: center;
+      }
+
+      .logo {
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+          }
+
+        .flex-container {
+            border: 4px double black;
+            background-color: #fafbfc;
+          width: 80%;
+          margin: auto;
+            border-radius: 15px;
+          display: flex;
+          flex-flow: row nowrap;
+        }
+        .flex-container h2 {
+
+        text-align: left;
+        font-family: "PT Sans";
+        font-size: 20px;
+        font-weight: 500;
+        color: #1956a6;
+        padding-left: 25px;
+        margin-bottom: 15px;
+        font-style: normal;
+      }
+
+        .first {
+
+          width: 25%;
+          margin: auto;
+          text-align: center;
+        }
+
+        .second {
+
+        width: 50%;
+          margin: auto;
+        }
+
+.github{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main-menu {
+    margin: auto;
+    text-align: center;
+}
+
+.main-menu li {
+  display: inline;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #1956a6;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  border-bottom: 5px solid #5757a0;
+}
