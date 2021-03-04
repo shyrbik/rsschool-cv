@@ -19,7 +19,7 @@
       <nav>
         <ul class="main-menu">
             <li><a href="#Contacts">Contacts</a></li>
-            <li><a href="#Aducation">Aducation</a></li>
+            <li><a href="#Education">Education</a></li>
             <li><a href="#About">About me</a></li>
             <li><a href="#skills">My skills</a></li>
             <li><a href="#English">English level</a></li>
@@ -37,7 +37,7 @@
       <h1>Aliaksandr Rumiantsau</h1>
       <div class="flex-container">
         <div class="first">
-         <img src="img/foto.png" alt ="foto for cv" height = "150px" />
+         <img src="img/foto.png" alt ="foto for cv" height = "150" />
         </div>
         <div class="second">
             <h2 id="Contacts">Contacts</h2>
@@ -57,7 +57,7 @@
       <section>
 
         <div class="block">
-            <h2 id="Aducation">Aducation</h2>
+            <h2 id="Education">Education</h2>
             <p>
                 The Belarusian State University of Informatics and Radioelectronics,
                 Faculty of Information Technologies and Control
@@ -73,10 +73,8 @@
           change my profession and grow in Front End direction.</p>
 
 
-        <p>
-          <a href="https://tinyurl.com/53cjkyns"></a>More
-          information about my previous places of work</a> .
-        </p>
+        <p><a href="https://tinyurl.com/53cjkyns">More
+          information about my previous places of work</a>.</p>
       </div>
 
       <div class="block">
@@ -98,8 +96,53 @@
       </div>
       <div class="block">
         <h2 id="code">Code Example</h2>
-       <img src="img/codeexample.png" alt="codeexample" width="90%"/>
-      </div>
+        <pre>
+        <code>
+            module.exports = function toReadable(number){<br />
+                let resultString = "";<br />
+                if ( (number != 0) && (number !=10)) {<br />
+                    <br />
+                let arr =(number + "").split("");<br />
+                let oneToNine = ["", "one", "two", "three", "four", "five","six", "seven", "eight", "nine"];<br />
+                let elevenToNineteen = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",<br />
+                                            "sixteen", "seventeen", "eighteen", "nineteen"];<br />
+                let tenToNinety = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"];<br />
+                <br />
+                switch(arr.length){<br />
+                    <br />
+                    case 1:<br />
+                    resultString = oneToNine[arr[0]];<br />
+                    break;<br />
+                    <br />
+                    case 2:<br />
+                     if(number &lt; 20){<br />
+                     resultString = elevenToNineteen[arr[1]];<br />
+                     }<br />
+                     else<br />
+                     resultString = tenToNinety[arr[0]] + " " + oneToNine[arr[1]];<br />
+                     <br />
+                    break;<br />
+                    <br />
+                    case 3:<br />
+                        if(arr[1] == 1) resultString = oneToNine[arr[0]] + " hundred " + elevenToNineteen[arr[2]];<br />
+                        else<br />
+                        resultString = oneToNine[arr[0]] + " hundred " + tenToNinety[arr[1]] + " "+ oneToNine[arr[2]];<br />
+                        break;<br />
+                }<br />
+                <br />
+                }<br />
+                else {<br />
+                    if (number == 0) resultString = "zero";<br />
+                    if (number == 10) resultString = "ten";<br />
+                    }<br />
+                    <br />
+                return resultString.replace(/\s+/g, ' ').trim();<br />
+            }<br />
+        </code></pre>
+
+
+
+    </div>
     </section>
 
     </div>
